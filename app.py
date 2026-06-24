@@ -22,7 +22,7 @@ st.write(
 # ----------------------------------
 @st.cache_data
 def load_data():
-    return pd.read_csv("leetcode_dataset - lc.csv")
+    return pd.read_csv("leetcode.csv")
 
 try:
     df = load_data()
