@@ -8,11 +8,11 @@ from sklearn.neighbors import NearestNeighbors
 # ----------------------------------
 st.set_page_config(
     page_title="DSA Question Recommendation System",
-    page_icon="🚀",
+    page_icon="",
     layout="wide"
 )
 
-st.title("🚀 DSA Question Recommendation System")
+st.title(" DSA Question Recommendation System")
 st.write(
     "Machine Learning-based recommendation system using TF-IDF Vectorization and KNN"
 )
